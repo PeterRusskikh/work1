@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+ .header {
+    width: 1438px;
+    height: 769px;
+    background-repeat: no-repeat;
+    background-image: url("img/bg.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header-logo {
+text-align: center;
+padding-top: 41.6px;
+}
+
+.header-title {
+        text-align: center;
+        line-height: 70.31px;
+        font-size: 60px;
+        color: #FFFFFF;
+        letter-spacing: 5.71px;
+        font-family: 'Bebas Neue';
+        margin-top: 304.06px;
+        
+}
+
+.header-title-p {
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    font-family: 'Open Sans';
+    color:#FFFFFF;
+}
+
+.header-scrolldown {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 221px;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 3.7px;
+    font-weight: bold;
+}
+
+.main-logo {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 79.53px;
+    height: 18px;
+    margin-left: 251px;
+    margin-top: 24px;
+    
+}
+.main-menu {
+    height: 65px;
+    width: 1438px;
+    background-color: #FFFFFF;
+    display: inline-flex;
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: 1.09px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border-style: solid; color: #E6E6E6;
+    border-width: 1px;
+    
+}
+.home {
+    margin-left: 781.5px;
+    margin-top: 25px;
+}
+.about {
+    margin-left: 48px;
+    margin-top: 25px; 
+    font-weight: bold;
+}
+.services {
+    margin-left: 42.5px;
+    margin-top: 25px;
+    
+}
+.work {
+    margin-left: 39px;
+    margin-top: 25px;
+}
+.contact {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+a {
+    text-decoration: none;
+    color: #48555B; /* Цвет обычной ссылки */
+}
+a:visited {
+    color: #48555B; /* Цвет посещенной ссылки */
+}
+
+.ourstory {
+    margin-top: 57px;
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 2.31px;
+    margin-left: 660px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    
+}
+
+.ourstory:after {
+    content:"";
+    position: absolute;
+    left:696px;
+    bottom:10px;
+    right:1162px;
+    background:#00A4E5;
+    height:2px;     
+}
+
+
